@@ -1,2 +1,2 @@
 write-host "Test Message"
-get-azureadusers
+get-azureaduser
