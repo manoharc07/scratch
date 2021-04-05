@@ -1,1 +1,1 @@
-$env:psmodulepath
+Get-AzResourceGroup
