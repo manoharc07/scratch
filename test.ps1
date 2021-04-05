@@ -1,1 +1,1 @@
-$env:userDomain
+$ENV:BUILD_URL
