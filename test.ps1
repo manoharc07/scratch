@@ -1,2 +1,2 @@
-import4-module az
+import-module az
 Get-AzResourceGroup
