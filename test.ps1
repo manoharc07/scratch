@@ -1,2 +1,1 @@
-write-host "Test Message"
-get-azureaduser
+$env:psmodulepath
