@@ -1,1 +1,1 @@
-Get-AzResourceGroup
+install-module azuread
