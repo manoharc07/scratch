@@ -1,2 +1,1 @@
-import-module azuread
-get-azureaduser
+$env:userDomain
