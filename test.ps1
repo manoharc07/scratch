@@ -1,2 +1,1 @@
-import-module az
-Get-AzResourceGroup
+Get-Module -ListAvailable az*
