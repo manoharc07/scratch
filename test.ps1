@@ -1,2 +1,2 @@
-$ENV:account
-$ENV:asd
+connect-azuread -credential $ENV:account
+
