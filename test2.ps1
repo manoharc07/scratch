@@ -1,4 +1,4 @@
-[cmdletBinding]
+[cmdletBinding()]
 param(
 [Parameter()]
 [string]$Name
