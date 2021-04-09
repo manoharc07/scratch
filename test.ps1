@@ -1,6 +1,6 @@
-[cmdletBindings]
+[cmdletBinding]
 param(
-[string]$name
+[string]$Name
 )
 write-host $($env:pass)
 $SrvPassword = ConvertTo-SecureString "$($ENV:pass)" -AsPlainText -Force
