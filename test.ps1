@@ -1,5 +1,6 @@
-[cmdletBinding]
+[cmdletBinding()]
 param(
+[Parameter()]
 [string]$Name
 )
 write-host $($env:pass)
