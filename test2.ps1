@@ -1,5 +1,6 @@
 [cmdletBinding]
 param(
+[Parameter()]
 [string]$Name
 )
 write-host $Name
