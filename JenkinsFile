@@ -4,6 +4,9 @@ pipeline {
         string(name: 'v2')
         file(name:'asdasdad')
     }
+    options {
+        skipDefaultCheckout(true)
+    }
     agent('any')
     stages {
         stage('Creating-Accounts'){
