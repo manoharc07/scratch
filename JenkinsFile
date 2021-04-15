@@ -1,9 +1,19 @@
 pipeline {
+    agent('any')
     stages {
-        stage('build') {
+        stage('git-clone') {
             steps {
-                sh 'npm --version'
+                git branch: 'main', url: 'https://github.com/manoharc07/scratch'
             }
         }
+        stage('Creating-Accounts'){
+            steps{
+               bat '''
+                    echo "Testing"
+               '''
+            
+            }
+        }
+        
     }
 }
