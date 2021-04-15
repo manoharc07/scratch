@@ -1,6 +1,6 @@
 pipeline {
     parameters {
-        string(name: 'v1')
+        string(name: 'v1',trim:true)
         string(name: 'v2')
         file(name:'asdasdad')
     }
